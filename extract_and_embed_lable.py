@@ -73,7 +73,7 @@ import cv2
 import struct
 import os
 
-
+# Code by [ceykmc/mnist.py] https://gist.github.com/ceykmc/c6f3d27bb0b406e91c27
 def extract_labels(mnist_label_file_path, label_file_path):
     with open(mnist_label_file_path, "rb") as mnist_label_file:
         # 32 bit integer magic number
@@ -89,7 +89,7 @@ def extract_labels(mnist_label_file_path, label_file_path):
         label_file.close()
 
 
-        
+# Code by [ceykmc/mnist.py] https://gist.github.com/ceykmc/c6f3d27bb0b406e91c27       
 def extract_images(images_file_path, images_save_folder):
     # images_file_path = "./t10k-images-idx3-ubyte"
     with open(images_file_path, "rb") as images_file:
@@ -115,6 +115,7 @@ def extract_images(images_file_path, images_save_folder):
             count += 1
             
             
+# code by [me; rocksyne ] https://github.com/rocksyne?tab=repositories
 # This code needs cleaning up. Please help if you can.           
 def embed_lable_into_image(label_file_path,images_save_folder):
     file = open(label_file_path,"r") 
