@@ -44,6 +44,7 @@ EXAMPLE: using test dataset
     new file name: 9564.8.png
 
 USAGE:
+    
     1. Go to http://yann.lecun.com/exdb/mnist/
     
     2. Download the tarin and test compressed mnist files
