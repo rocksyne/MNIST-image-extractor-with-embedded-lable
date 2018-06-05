@@ -37,11 +37,13 @@ to extract png images from the mnist compressed dataset and embed their labels i
 the file name to make it relevant to anyone who wants to use it in a different way
 as they please.
 
-EXAMPLE: using test dataset
+EXAMPLE: using test dataset as example
+    
     Pattern: OLDFILENAME.LABLE.FILE_EXTENSION
     old file name: 9564.png
     lable: 8
     new file name: 9564.8.png
+    
 
 USAGE:
     
